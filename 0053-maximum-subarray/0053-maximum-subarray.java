@@ -1,5 +1,6 @@
 class Solution {
     public int maxSubArray(int[] nums) {
+        
         int maxSoFar = nums[0];
         int currentSum = nums[0];
 
